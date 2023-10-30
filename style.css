@@ -1,0 +1,84 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: beige;
+  font-size: larger;
+}
+
+h1 {
+font-family: 'Roboto', sans-serif;
+font-size: xx-large;
+line-height: 50%;
+color: rgb(150, 169, 163);
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(159, 159, 197);
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(45, 189, 105);
+  text-align: justify;
+}
+
+button {
+  background-color: rgb(78, 78, 173);
+  font-size: large;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: aqua;
+  text-decoration: none;
+}
+a:hover {
+  background-color: rgb(74, 74, 70);
+}
+
+.card {
+  border: 8px solid lightgrey;
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+#follow {
+ display: contents;
+}
+
+.img-circle {
+  border-radius: 60%;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+ @media (max-width: 960px) {
+ .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
